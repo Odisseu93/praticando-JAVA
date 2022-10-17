@@ -19,7 +19,7 @@ public class ExemploSaidaDeDados {
 
 		System.out.printf("Products:%n" + "%s, which price is $ %.2f", product1, computerPrice);
 		System.out.printf("%n%s, which price is $ %.2f", product2, deskPrice);
-		System.out.printf("%n%nRecord: 30 years old, code %d and gender : %c", code, gender);
+		System.out.printf("%n%nRecord: %d years old, code %d and gender : %c", age, code, gender);
 		System.out.printf("%n%nMesure with eight decimal places: %.8f", measure); 
 		System.out.printf("%nRounded (three decimal places): %.3f", measure);
 		Locale.setDefault(Locale.US);
