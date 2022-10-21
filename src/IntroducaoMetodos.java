@@ -10,6 +10,7 @@ public class IntroducaoMetodos {
 
 		System.out.println(fatorial(n));
 
+		 sc.close();
 	}
 
 	/* método fatorial*/
